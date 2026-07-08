@@ -10,9 +10,9 @@ body{
 
 .section-title{
     color: oklch(0.21 0.034 264.665);
-    font-size: clamp(1.5rem, calc(1.178rem + 1.428vw), 2.25rem);
+    font-size:2.25rem;
     font-family:'Cormorant Garamond',serif;
-    line-height: 40px;
+    line-height: 1.11;
     font-weight: 500;
     margin: 0px 0px 12px;
 }
@@ -26,7 +26,7 @@ body{
     font-family: 'Cormorant Garamond',serif;
     font-size:1.5rem;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1.33;
     color: oklch(0.592 0.249 0.584);
 } 
 
@@ -93,7 +93,7 @@ body{
 }
 
 .hamburger-btn{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: oklch(0.373 0.034 259.733);
     border: none;
     background: transparent;
@@ -128,10 +128,10 @@ body{
     color: oklch(0.525 0.223 3.958);
     margin: 0px 0px 24px;
     padding: 6px 16px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 1.43;
     gap: 8px;
 } 
 
@@ -145,7 +145,7 @@ body{
     font-family:'Cormorant Garamond',serif;
     font-size: clamp(3rem, calc(2.678rem + 1.428vw), 3.75rem);
     font-weight: 500;
-    line-height: 60px;
+    line-height: 1.2;
     color: oklch(0.21 0.034 264.265);
     margin: 0px 0px 24px;
 }
@@ -262,7 +262,7 @@ body{
 
 .customer-review{
     font-family:'DM Sans', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: oklch(0.278 0.033 256.848);
     line-height: 20px;
     font-weight: 500;
@@ -270,7 +270,7 @@ body{
 
 .customer-name{
     font-family:'DM Sans', sans-serif;
-    font-size: 12px;
+    font-size: 0.875rem;
     color: oklch(0.551 0.027 264.364);
     line-height: 16px;
 }
@@ -297,14 +297,14 @@ body{
 
 .trust-title{
     font-family:'DM Sans', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     line-height: 20px;
 }
 
 .trust-desc{
     font-family:'DM Sans', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 16px;
     color: oklch(0.948 0.028 342.258);
 }
@@ -321,7 +321,7 @@ body{
 .collection-subtitle{
     color: oklch(0.551 0.027 264.364);
     font-family:'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
 }
 
@@ -408,7 +408,7 @@ body{
 }
 
 .product-name{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family:'Cormorant Garamond',serif;
     font-weight: 500;
     line-height: 28px;
@@ -417,7 +417,7 @@ body{
 }
 
 .product-desc{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'DM Sans', sans-serif;
     line-height: 22.75px;
     color: oklch(0.551 0.027 264.364);
@@ -433,7 +433,7 @@ body{
 
 .product-price{
     color: black;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family:'Cormorant Garamond',serif;
     line-height: 32px;
     font-weight: 1000;
@@ -488,7 +488,7 @@ body{
 
 .about-desc{
     color: oklch(0.446 0.03 256.802);
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 26px;
     margin: 0px 0px 20px;
@@ -501,7 +501,7 @@ body{
 
 .feature-item{
     color: oklch(0.446 0.03 256.802);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'DM Sans',sans-serif;
     line-height: 20px;
     margin: 0px 0px 12px;
@@ -525,7 +525,7 @@ body{
 
 .review-desc{
     color: oklch(0.551 0.027 264.364);
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 24px;
 }
@@ -544,7 +544,7 @@ body{
 
 .review-text{
     color: oklch(0.373 0.034 259.713);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'DM Sans',sans-serif;
     line-height: 22.75px;
     margin: 0px 0px 20px;
@@ -558,7 +558,7 @@ body{
 
 .review-icon{
     color: oklch(0.592 0.249 0.584);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     font-family:'DM Sans',sans-serif;
     line-height: 22.75px;
@@ -574,7 +574,7 @@ body{
 
 .review-data{
     color: oklch(0.21 0.034 264.665);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'DM Sans',sans-serif;
     line-height: 20px;
 
@@ -582,7 +582,7 @@ body{
 
 .review-location{
     color: oklch(0.707 0.022 261.325);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family:'DM Sans',sans-serif;
     line-height: 16px;
 }
@@ -603,7 +603,7 @@ body{
 
 .faq-title{
     color: oklch(0.21 0.034 264.665);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family:'Cormorant Garamond',serif;
     line-height: 40px;
     font-weight: 500;
@@ -612,7 +612,7 @@ body{
 
 .faq-desc{
     color: oklch(0.551 0.027 264.364);
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 24px;
 
@@ -641,7 +641,7 @@ body{
 .faq-question{ 
     color: oklch(0.21 0.034 264.665);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 24px;
     padding:0px 16px 0px 0px;
@@ -661,7 +661,7 @@ body{
 .faq-answer {
     padding: 0 24px 20px;
     background-color: #ffffff;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family:'DM Sans',sans-serif;
     line-height: 22.75px;
     color: oklch(0.446 0.03 256.802);
@@ -675,7 +675,7 @@ body{
 
 .footer-doubt{
     margin: 0px 0px 16px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 24px;
     color: oklch(0.446 0.03 256.802);
@@ -704,7 +704,7 @@ body{
 
 .contact-title{
     color: oklch(0.21 0.034 264.665);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family:'Cormorant Garamond',serif;
     line-height: 40px;
     font-weight: 500;
@@ -718,7 +718,7 @@ body{
 
 .contact-desc{
     color: oklch(0.446 0.03 256.802);
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'DM Sans',sans-serif;
     line-height: 26px;
     margin: 0px 0px 24px;
@@ -756,7 +756,7 @@ body{
 .contact-label{
     color: oklch(0.21 0.034 264.665);
     font-family:'DM Sans',sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 20px;
 }
@@ -764,7 +764,7 @@ body{
 .contact-link{
     color: oklch(0.656 0.241 354.308);
     font-family:'DM Sans',sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 20px;
     text-decoration-line: none;
 }
@@ -784,7 +784,7 @@ body{
 .contact-sum{
     background: oklch(0.971 0.014 343.198);
     font-family:'DM Sans',sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: oklch(0.446 0.03 256.802);
     padding: 20px;
     border-radius: 16px;
@@ -806,7 +806,7 @@ body{
 
 .card-header{
     color: oklch(0.21 0.034 264.665);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family:'Cormorant Garamond',serif;
     line-height: 32px;
     font-weight: 500;
@@ -825,7 +825,7 @@ body{
     margin: 0px 0px 4px;
     color: oklch(0.373 0.034 259.733);
     font-family:'DM Sans',sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 20px;
     font-weight: 500;
 }
@@ -863,7 +863,7 @@ body{
     width: 100%;
     border-radius: 16px;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     font-family:'DM Sans',sans-serif;
     gap: 12px;
@@ -871,7 +871,7 @@ body{
 
 .form-note{
     font-family:'DM Sans',sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 20px;
 }
 
@@ -902,7 +902,7 @@ body{
 
 .footer-desc{
     color: oklch(0.707 0.022 261.325);
-    font: 14px 'DM Sans', sans-serif;
+    font: 0.875rem 'DM Sans', sans-serif;
     line-height: 22.75px;
     margin: 0px 0px 8px;
 }
@@ -918,7 +918,7 @@ body{
 }
 
 .footer-title{
-    font: 14px 'DM Sans', sans-serif;
+    font: 0.875rem 'DM Sans', sans-serif;
     margin: 0px 0px 16px;
 }
 
@@ -940,7 +940,7 @@ body{
 }
 
 .footer-text{
-    font: 14px 'DM Sans', sans-serif;
+    font: 0.875rem 'DM Sans', sans-serif;
     color: oklch(0.551 0.027 264.364);
 }
 
